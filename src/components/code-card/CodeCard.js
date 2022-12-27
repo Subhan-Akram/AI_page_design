@@ -18,6 +18,7 @@ function CodeCard() {
   return (
     <div className='code_card bd_yellow'>
          <div className='code_card_left bd_blue'> 
+            <div>
             <div className='card_left_div bd_green'><img src={msg}></img><h3>Explain Code</h3></div>
             <p className='card_text'>Explain some code based on the syntax provided</p>
             <p className='card_left_bold_text'>Paste your code below:</p>
@@ -26,13 +27,16 @@ function CodeCard() {
     &nbsp;&nbsp;echo text || <span className='gr'>"Hello World"</span>; 
 
             </div>
+            </div>
             <div className='code_btn'><button><img src={left_btn_logo}></img>Enhance with AI</button></div>
          </div>
          
          
          
          <div className='code_card_right'>
-           <div className='card_left_div'><div className='round_div'><img src={bulletLg}></img></div><h3>What does this code do?</h3></div>
+        <div>
+        <div className='card_left_div'>
+            <div className='round_div'><img src={bulletLg}></img></div><h3>What does this code do?</h3></div>
            <p className='card_text'>The following code does:</p>
        {arr.map(val=>{
         return(
@@ -46,6 +50,7 @@ function CodeCard() {
             </div>
         )
        })}
+        </div>
          <div className='code_right_btn'><button ><img src={card_r_logo}></img>Copy Output</button></div>
          </div>
       </div>

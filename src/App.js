@@ -66,6 +66,11 @@ const App = () => {
         <div className="bd_blue btn_logo"><img style={{width:"100%",height:"100%"}}  src={btn_logo}></img></div>
        
      </div>
+     <div className="w">
+        <div className="w1">box1</div>
+        <div className="w1 ">box1</div>
+        <div className="w1 w2">box1</div>
+     </div>
     </div>
   );
 };

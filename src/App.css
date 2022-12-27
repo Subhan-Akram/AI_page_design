@@ -6,7 +6,7 @@
  background: linear-gradient(90deg, #785EFD 0%, #371BCB 100%);
 }
 .container{
-  width: 65%;
+  width: 70%;
   margin: auto auto;
   display: flex;
   justify-content: space-between;
@@ -146,3 +146,28 @@ color: #381BCB;
 .bd_blue{
   border:1px solid blue
 } */
+
+
+.w{
+  width: 80%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  border:1px solid blue;
+  /* padding: 4rem; */
+  height: 400vh;
+  align-items: space-between;
+  justify-content: space-around;
+}
+
+.w1{
+  width: 30%;
+  height:200px;
+  background-color: yellow;
+  border: 1px solid red;
+}
+.w2{
+  align-self: flex-end !important;
+  /* justify-self: flex-start !important; */
+  
+}
